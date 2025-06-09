@@ -49,3 +49,54 @@ coverage/
 !.vscode/launch.json
 !.vscode/extensions.json
 *.code-workspace
+
+.py[cod]
+
+# C extensions
+*.so
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+.build
+eggs
+.eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+lib
+lib64
+pip-wheel-metadata
+venv*
+.venv*
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+
+# Sphinx
+docs/_build
+docs/modules.rst
+
+# Hypothesis Property base testing
+.hypothesis
+
+# tox/pytest cache
+.cache
+.pytest_cache
+
+# pycache
+__pycache__/
+
+# jupyter notebook files
+*.ipynb
+
