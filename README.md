@@ -118,37 +118,6 @@ A comprehensive analysis of the EigenLayer Actively Validated Services (AVS) eco
    - Strategies: stETH, EIGEN, rETH, cbETH
    - Total value: $2.9M
 
-## ⚡ Cache Performance Benchmarks
-
-### Price Caching Performance
-
-| Test | Tokens | First Call (API) | Second Call (Cache) | Speedup |
-|------|--------|------------------|---------------------|---------|
-| Test 1 | 1 | 0.774s | 0.000s | 7,584.9x |
-| Test 2 | 2 | 0.000s | 0.000s | 1.4x |
-| Test 3 | 3 | 0.000s | 0.000s | 1.1x |
-| Test 4 | 4 | 0.000s | 0.000s | 1.0x |
-| Test 5 | 5 | 0.000s | 0.000s | 1.7x |
-
-**Average price speedup**: 1,518.0x
-
-### RPC Caching Performance
-
-| Operator | First Call (RPC) | Second Call (Cache) | Speedup |
-|----------|------------------|---------------------|---------|
-| 0xdbed88d8... | 0.536s | 0.000s | 3,079.2x |
-| 0x7e3cede5... | 0.532s | 0.000s | 4,251.8x |
-| 0x865cae37... | 0.494s | 0.000s | 2,034.3x |
-| 0x5cd6fdfa... | 0.362s | 0.000s | 2,230.7x |
-| 0xdfcb21ac... | 0.322s | 0.000s | 2,638.4x |
-
-**Average RPC speedup**: 2,846.9x
-
-### Cache Efficiency Metrics
-- **Average file size**: 0.0 KB
-- **Storage overhead**: Minimal
-- **Estimated API calls saved**: 8
-- **Estimated time saved**: 1.6s
 
 ## 🔬 Advanced Research Findings
 
